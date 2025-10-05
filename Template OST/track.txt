@@ -1,22 +1,33 @@
 {
-    "id": "Chumba_ti_ebnuti",
-    "volume": 6.0,
-    "name": "Cyberpunk 2077 - Valentinos",
-    "fade_transition": true,
-    "fade_duration": 1,
-    "events": {
-        "setup": {
-            "file": "setup.ogg"
-        },
-        "control" : {
-            "file": "control.ogg"
-        },
-        "buildup": {
-            "file": "buildup.ogg"
-        },
-        "assault" : {
-            "start_file": "begin_assault.ogg",
-            "file": "assault.ogg"
+	"id": "id_da_track",
+         "volume": 6.0,
+         "name": "nome da track",
+         "fade_transition": true,
+         "fade_duration": 1,
+         "events": {
+	     "setup": {
+	         "start_file": "begin_setup.ogg",
+                 "file": "setup.ogg",
+                 "alt": "setup_alt.ogg",
+                 "alt_chance": 0.5
+             },
+	     "control" : { 
+	         "start_file": "begin_control.ogg",
+                 "file": "control.ogg",
+                 "alt": "control_alt.ogg",
+                 "alt_chance": 0.5
+             },     
+             "buildup": {
+	         "start_file": "begin_buildup.ogg",
+                 "file": "buildup.ogg",
+                 "alt": "buildup_alt.ogg",
+                 "alt_chance": 0.5
+              },
+             "assault" : {
+                 "start_file": "begin_assault.ogg",
+                 "file": "assault.ogg",
+                 "alt": "assault_alt.ogg",
+                 "alt_chance": 0.5
         }
     }
 }
