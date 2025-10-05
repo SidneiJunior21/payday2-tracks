@@ -1,0 +1,25 @@
+{
+    "id": "GoldoCorinthians",
+    "volume": 6.0,
+    "name": "Gol do Corinthians",
+    "fade_transition": true,
+    "fade_duration": 2,
+    "events": {
+        "setup": {
+            "file": "setup.ogg"
+            "alt": "setup_alt.ogg",
+            "alt_chance": 0.5,
+        },
+        "control" : {
+	    "start_file": "control_intro.ogg",
+            "file": "control.ogg"
+        },
+        "buildup": {
+            "file": "buildup.ogg"
+        },
+        "assault" : {
+            "start_file": "begin_assault.ogg",
+            "file": "assault.ogg"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "Chumba_ti_ebnuti",
+    "volume": 6.0,
+    "name": "Cyberpunk 2077 - Valentinos",
+    "fade_transition": true,
+    "fade_duration": 1,
+    "events": {
+        "setup": {
+            "file": "setup.ogg"
+        },
+        "control" : {
+            "file": "control.ogg"
+        },
+        "buildup": {
+            "file": "buildup.ogg"
+        },
+        "assault" : {
+            "start_file": "begin_assault.ogg",
+            "file": "assault.ogg"
+        }
+    }
+}

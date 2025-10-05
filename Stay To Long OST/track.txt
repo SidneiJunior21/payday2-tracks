@@ -1,0 +1,22 @@
+{
+    "id": "hamburgi",
+    "volume": 6.0,
+    "name": "Stay To Long",
+    "fade_transition": true,
+    "fade_duration": 1,
+    "events": {
+        "setup": {
+            "file": "setup.ogg"
+        },
+        "control" : {
+            "file": "control.ogg"
+        },
+        "buildup": {
+            "file": "buildup.ogg"
+        },
+        "assault" : {
+            "start_file": "begin_assault.ogg",
+            "file": "assault.ogg"
+        }
+    }
+}

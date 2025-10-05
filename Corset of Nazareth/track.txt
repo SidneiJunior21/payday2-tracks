@@ -1,0 +1,37 @@
+{
+    "id": "Corset of Nazareth",
+    "volume": 1,
+    "name": "Corset of Nazareth",
+    "fade_duration": 1,
+    "context": "heist",
+    "events": {
+        "setup": {
+            "file": "setup.ogg",
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        },
+        "control" : {
+            "file": "control.ogg",
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        },
+        "buildup": {
+            "file": "buildup.ogg",
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        },
+        "assault" : {
+            "file": "assault.ogg",
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        }
+    }
+}

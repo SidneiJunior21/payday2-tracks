@@ -1,0 +1,43 @@
+{
+    "id": "renkrenk",
+    "volume": 1,
+    "name": "Olha o Barulhinho da Cama",
+    "fade_duration": 1.5,
+    "context": "heist",
+    "events": {
+        "setup": {
+            "file": "setup.ogg",
+            "alt": "setup_alt.ogg",
+            "alt_chance": 0.5,
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        },
+        "control" : {
+	    "start_file": "control_intro.ogg",
+            "file": "control.ogg",
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        },
+        "buildup": {
+            "file": "buildup.ogg",
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        },
+        "assault" : {
+            "start_file": "begin_assault.ogg",
+            "file": "assault.ogg",
+            "alt": "alt_assault.ogg",
+            "alt_chance": 0.5,
+
+            "volume": 1,
+            "fade_in": 1,
+            "fade_out": 1
+        }
+    }
+}

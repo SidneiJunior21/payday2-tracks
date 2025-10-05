@@ -1,0 +1,23 @@
+{
+    "id": "MeathookExultia",
+    "volume": 6.0,
+    "name": "Meathook Exultia",
+    "fade_transition": true,
+    "fade_duration": 1,
+    "events": {
+        "setup": {
+            "file": "setup.ogg"
+        },
+        "control" : {
+            "file": "control.ogg"
+            "start_file": "begin_control.ogg",
+        },
+        "buildup": {
+            "file": "buildup.ogg"
+        },
+        "assault" : {
+            "start_file": "begin_assault.ogg",
+            "file": "assault.ogg"
+        }
+    }
+}
